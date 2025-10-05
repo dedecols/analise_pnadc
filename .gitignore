@@ -1,0 +1,19 @@
+# Arquivos de histórico e ambiente do R
+.Rhistory
+.RData
+.Renviron
+
+# Pasta de configurações específicas do usuário do RStudio
+.Rproj.user/
+
+# Pasta com dados brutos ou arquivos gerados pelo script
+dados/
+resultados/
+
+# Arquivos de output gerados pelo script
+*.xlsx
+*.csv
+*.png
+
+# Arquivos .rds gerados
+*.rds
