@@ -10,7 +10,6 @@ for (pacote in pacotes_necessarios) {
 }
 
 
-
 # Obter os microdados da PNAD Contínua de 2024 ---- 
 
 # Criar um subdiretório para os dados, se ele não existir
@@ -44,7 +43,6 @@ for (q in trimestres) {
     assign(nome_objeto, dados_trimestre)
   }
 }
-
 
 
 # Criação de variável deflatora usando o INPC (para o indicador 3) ----
